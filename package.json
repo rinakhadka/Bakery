@@ -1,0 +1,20 @@
+{
+  "name": "sweet-crumbs-bakery",
+  "version": "1.0.0",
+  "description": "Sweet Crumbs Bakery - Full-Stack E-Commerce Project",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "start:backend": "npm --prefix backend start",
+    "build:frontend": "npm --prefix frontend run build"
+  },
+  "keywords": [
+    "bakery",
+    "ecommerce",
+    "react",
+    "express",
+    "college-project"
+  ],
+  "author": "Sweet Crumbs Bakery",
+  "license": "ISC"
+}

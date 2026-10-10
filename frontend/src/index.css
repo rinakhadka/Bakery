@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bakery-cream: #FCF9F2;
+  --color-bakery-paper: #FAF4EB;
+  --color-bakery-card: #FFFFFF;
+  --color-bakery-pink-light: #FDF2F4;
+  --color-bakery-pink: #F8D2D7;
+  --color-bakery-pink-dark: #DE7C88;
+  --color-bakery-beige: #F1E6D8;
+  --color-bakery-caramel: #C68B59;
+  --color-bakery-caramel-dark: #9F5F2B;
+  --color-bakery-chocolate: #2C1810;
+  --color-bakery-chocolate-light: #5A3E31;
+  --color-bakery-gold: #D4AF37;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Base Body Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bakery-cream);
+  color: var(--color-bakery-chocolate);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Custom scrollbar for warm bakery feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF4EB;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8C3B0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C68B59;
+}
